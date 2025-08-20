@@ -33,7 +33,7 @@ jobs:
       run: sudo npm install -g stylelint
  
     - name: Vérifier le CSS
-      run: npx stylelint "**/*.css"
+      run: npx stylelint "**/*.css" --fix
      
     - name: Installer ESLint
       run: npm install -g eslint
