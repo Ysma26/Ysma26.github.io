@@ -1,0 +1,85 @@
+/* Mise en page du formulaire */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f1e9;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  align-items: center;   
+  overflow: hidden;        
+}
+
+
+
+/* Conteneur centré et réduit */
+.container {
+  width: 420px;
+ max-height: 90vh;
+  overflow-y: auto;      
+  background-color: #45a049;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* Champs de formulaire */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #10d809;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Bouton d’envoi */
+input[type=submit] {
+  background-color: #ff0202;
+  color: #000000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3e8e5c;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+    /* CSS titre contact*/
+.form-title-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#45a049;
+    border-radius : 8px;
+    padding: 20px 0;
+    margin: 0 auto 30px auto;
+    width: 320px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+   
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  margin:0;
+  color: #fff;
+  font-weight: 700;
+}
+}

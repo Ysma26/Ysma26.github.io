@@ -1,0 +1,73 @@
+
+
+  <body>
+    <!--Animation pour le fond de la page-->
+    
+
+    <!--Entête de la page-->
+    <header>
+      <nav class="custom-navbar">
+        <div class="nav-container">
+        <!--Logo de la page-->
+        <a href="index.html" class="logo-link">
+          <img src="image/LogoRKTF.png" alt=Logo de Ysma" class="logo-img"/>
+          <span class="logo-text">Mon Portfolio</span>
+          
+        </a>
+        <!--Menu burger (checkbox hack)-->
+        <input type="checkbox" class="menu-toggle" id="menu-toggle"/>
+        <label for="menu-toggle" class="menu-icon" aria-label="ouvrir le menu de navigation" role="ouvrir le menu de navigation">
+                
+        </label>
+
+            <!--Lien de navigation-->
+            <ul class="nav-links">
+                <li><a href="#index.html">Acceuil</a></li>
+                <li><a href="#about">CV</a></li>
+                <li><a href="#passion.html">Passion</a></li>    
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+
+    
+              </nav>
+                
+          
+            </div>
+          </header>
+
+    <!--Contenu de la page-->
+<div class="apparition">
+<div class="container"> 
+   <div class="form-tile-box">
+<h1 class="form-title">contactez-moi :</h1>
+</div>
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Nom</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="france">FRANCE</option>
+      <option value="madagascar">MADAGASCAR</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject"></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+  </div>
+</div>
+            
+          </body>
+
+
+    
+          </html>
